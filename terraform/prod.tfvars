@@ -1,0 +1,10 @@
+env = "prod"
+region = "us-east-1"
+vpc_id = "vpc-prod-id"
+subnets = ["subnet-prod-1", "subnet-prod-2"]
+security_group = "sg-prod-id"
+ssl_certificate_arn = "arn:aws:acm:us-east-1:certificate/prod-certificate-arn"
+execution_role_arn = "arn:aws:iam::prod-execution-role"
+task_role_arn = "arn:aws:iam::prod-task-role"
+container_image_order = "prod-order-image-url"
+desired_count = 3

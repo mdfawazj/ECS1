@@ -1,0 +1,10 @@
+env = "dev"
+region = "us-east-1"
+vpc_id = "vpc-077fa42f675382c22"
+subnets = ["subnet-0659c10221fe3f368", "subnet-0562f55cb76872a06"]
+security_group = "sg-086ef33ceebd83202"
+ssl_certificate_arn = "arn:aws:acm:us-east-1:certificate/dev-certificate-arn"
+execution_role_arn = "arn:aws:iam::dev-execution-role"
+task_role_arn = "arn:aws:iam::dev-task-role"
+container_image_order = "dev-order-image-url"
+desired_count = 1

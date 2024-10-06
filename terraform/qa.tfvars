@@ -1,0 +1,10 @@
+env = "qa"
+region = "us-east-1"
+vpc_id = "vpc-qa-id"
+subnets = ["subnet-qa-1", "subnet-qa-2"]
+security_group = "sg-qa-id"
+ssl_certificate_arn = "arn:aws:acm:us-east-1:certificate/qa-certificate-arn"
+execution_role_arn = "arn:aws:iam::qa-execution-role"
+task_role_arn = "arn:aws:iam::qa-task-role"
+container_image_order = "qa-order-image-url"
+desired_count = 2
